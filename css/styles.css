@@ -1,0 +1,28 @@
+body {
+    background-color: lightblue;
+    font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+    font-size: 10pt;
+    width: 350px;
+}
+
+h1 {
+    color: hsla(235, 72%, 50%, 0.91);
+    margin-left: 20px;
+    font-size: 12pt;
+}
+#status {
+  /* avoid an excessively wide status text */
+  white-space: pre;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 400px;
+}
+#legal-cc{
+    font-size: 7pt;
+    font-style: italic;
+    text-align: right;
+}
+#legal-cc a{
+    text-decoration: none;
+    color: inherit;
+}
